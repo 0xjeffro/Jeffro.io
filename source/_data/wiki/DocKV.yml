@@ -1,0 +1,52 @@
+name: DocKV
+title: DocKV - 无需配置，零成本缓存
+subtitle: '基于Google Sheets API的KV数据库 | Designed by Jeffro'
+tags: 开源项目
+cover: true
+logo:
+  src: /assets/wiki/DocKV/DocKV.png
+  small: 108px
+  large: 180px
+description: DocKV 是一个基于Google Sheets API实现的KV数据库。
+repo: 0xjeffro/DocKV
+sidebar: 
+  - search:
+    override: search
+    filter: /wiki/stellar/
+    placeholder: 在 Stellar 中搜索...
+  - toc
+  - timeline_stellar_releases
+  - related
+comment_title: '评论区仅供交流，有问题请提 [issue](https://github.com/0xjeffro/DocKV/issues) 反馈。'
+comments:
+  service: giscus
+  giscus:
+    data-repo: 0xjeffro/DocKV
+    data-mapping: number
+    data-term: 1
+path: /wiki/DocKV/
+toc:
+  '快速开始':
+    - index
+    - examples
+    - releases
+  '基本使用':
+    - theme-settings
+    - pages
+    - sidebar
+    - tag-plugins
+    - tag-plugins/express
+    - tag-plugins/data
+    - tag-plugins/container
+    - comments
+  '文档系统':
+    - wiki-settings
+  '进阶玩法':
+    - widgets
+    - advanced-settings
+    - notes
+    - fcircle
+  '技术支持':
+    - articles
+    - todo
+    - contributors

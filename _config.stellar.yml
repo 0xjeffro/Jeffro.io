@@ -1,0 +1,194 @@
+sidebar:
+  logo:
+    title: Jᥱffr᧐ <i class="fa-regular fa-atom fa-spin"></i>
+
+  menu:
+    post: '[博客](/)'  # home  https://fontawesome.com/icons
+    wiki: '[项目](/wiki/)'
+    notes: '[探索](/notes/)'
+    more: '[社交](/about/)'
+    # post: '[<i class="fa-solid fa-house"></i>](/)'  # home  https://fontawesome.com/icons
+    # wiki: '[<i class="fa-solid fa-code-pull-request"></i>](/wiki/)'
+    # notes: '[<i class="fa-solid fa-bookmark"></i>](/notes/)'
+    # more: '[<i class="fa-solid fa-feather"></i>](/about/)'
+  widgets:
+    # Recent update
+    recent:
+      rss: /atom.xml # npm i hexo-generator-feed
+
+    timeline:
+      # layout: timeline
+      # title: Recent activity
+      # api: https://api.github.com/repos/xaoxuu/hexo-theme-stellar/issues
+      # user: # 默认显示所有人的数据，设置名称可过滤为仅显示某人的数据，多个名称用英文逗号隔开，不要加空格
+      # type: # 默认不用写，如果是友链朋友圈数据请写 fcircle
+      # limit: # 默认通过 api 上增加 per_page 来设置，如果是友链朋友圈，可通过这个设置数量
+
+article:
+  # 分类颜色
+  category_color:
+    # '项目投研': '#DA0F47'
+    'Keynote': '#03a9f4'
+    # '奇思妙想': '#009688'
+    '项目投研': '#ff9800'
+    'Tech Gas Station': '#4caf50'
+    'Telegram机器人': '#4caf50'
+    '博客主题': '#ffa000'
+    # '机器人': '#e91e63'
+    'Utility Tools': '#009688'
+  license: 'This article is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/), please cite if you intend to reproduce.'
+  share: [link, wechat, weibo]
+  related_posts:
+    enable: false
+    auto_cover: false
+
+  
+
+comments:
+  service: giscus
+  # giscus
+  # https://giscus.app/zh-CN
+  giscus:
+    data-repo: JeffroTanvik/discussion4me.io # [在此输入仓库]
+    data-repo-id: R_kgDOI2lh2g # [在此输入仓库 ID]
+    data-category: Announcements # [在此输入分类名]
+    data-category-id: DIC_kwDOI2lh2s4CT1xB
+    data-mapping: url
+    data-strict: 0
+    data-reactions-enabled: 1
+    data-emit-metadata: 0
+    data-input-position: top # top, bottom
+    data-theme: preferred_color_scheme
+    data-lang: en
+    data-loading: lazy
+    crossorigin: anonymous
+
+footer:
+  social:
+    github:
+      icon: '<img src="/assets/social/github2.svg"/>'
+      url: https://github.com/0xjeffro
+    Telegram:
+      icon: '<img src="/assets/social/telegram-original.svg"/>'
+      url: https://t.me/JeffroBTC
+    twitter:
+      icon: '<img src="/assets/social/twitter.svg"/>'
+      url: https://twitter.com/JeffroBTC
+    # gmail:
+    #   icon: '<img src="assets/social/gmail.svg"/>'
+    #   url: https://twitter.com/JeffroTanvik
+    spotify:
+      icon: '<img src="/assets/social/spotify.svg"/>'
+      url: https://open.spotify.com/playlist/37i9dQZF1DWZd79rJ6a7lp?si=b8374656777c4a00
+    
+  sitemap:
+    'Blog':
+      - '[Recent](/)'
+      - '[Categories](/blog/categories/)'
+      - '[Tags](/blog/tags/)'
+      - '[Archives](/blog/archives/)'
+    'Project':
+      - '[开源库](/wiki/tags/开源库/)'
+      - '[实用脚本](/wiki/tags/实用脚本/)'
+      - '[博客主题](/wiki/tags/博客主题/)'
+      - '[应用程序](/wiki/tags/应用程序/)'
+    'Make friends':
+      - '[Friends](/friends/)'
+      - '[Guest Book](/about/#comments)'
+    'More':
+      - '[About](/about/)'
+      - '[GitHub](https://github.com/JeffroTanvik)'
+  content: | # 支持 Markdown 格式
+    This site is created by [@Jeffro](/) using [Stellar](https://github.com/xaoxuu/hexo-theme-stellar) theme.
+    The articles on this site are all licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/), please cite if you intend to reproduce.
+  # 主题用户越多，开发者维护和更新的积极性就越高，如果您喜欢本主题，请在适当的位置显示主题信息和仓库链接以表支持。
+  source: '[GitHub](https://github.com/JeffroTanvik)'
+
+
+
+style:
+  codeblock:
+    scrollbar: 0px
+  
+  text-align: justify # justify/left/center/right
+
+  font-family:
+    body: '"LXGW WenKai Screen", sans-serif'
+    # body: '"Lora", serif'
+
+####### JS Plugins ########
+plugins:
+  ## required plugins ##
+  # jquery
+  jquery: https://fastly.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js
+
+  # issues api
+  sitesjs: /js/plugins/sites.js
+  friendsjs: /js/plugins/friends.js
+
+  ## optional plugins ##
+  # preload
+  preload:
+    enable: true
+    service: flying_pages # instant_page, flying_pages
+    instant_page: https://fastly.jsdelivr.net/gh/volantis-x/cdn-volantis@4.1.2/js/instant_page.js
+    flying_pages: https://fastly.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js
+
+  # image lazyload
+  # https://www.npmjs.com/package/vanilla-lazyload
+  lazyload:
+    enable: true # [hexo clean && hexo s] is required after changing this value.
+    js: https://fastly.jsdelivr.net/npm/vanilla-lazyload@17.3.1/dist/lazyload.min.js
+    transition: blur # blur, fade
+
+  # https://scrollrevealjs.org/api/reveal.html
+  scrollreveal:
+    enable: false
+    js: https://fastly.jsdelivr.net/npm/scrollreveal@4.0.9/dist/scrollreveal.min.js
+    distance: 8px
+    duration: 500 # ms
+    interval: 100 # ms
+    scale: 1 # 0.1~1
+
+  # https://fancyapps.com/docs/ui/fancybox/
+  # available for {% image xxx %}
+  fancybox:
+    enable: true
+    js: https://fastly.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js
+    css: https://fastly.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css
+    # 可以处理评论区的图片（不支持 iframe 类评论系统）例如：
+    # 使用valine评论可以写: .vcontent img:not(.vemoji)
+    # 使用twikoo评论可以写: .tk-content img:not([class*="emo"])
+    # 使用waline评论可以写: #waline_container .vcontent img
+    selector: .swiper-slide img # 多个选择器用英文逗号隔开
+
+  # swiper
+  swiper:
+    enable: true
+    css: https://unpkg.com/swiper@6/swiper-bundle.min.css
+    js: https://unpkg.com/swiper@6/swiper-bundle.min.js
+
+
+  # 赫蹏 (Heti) - 专为中文网页内容设计的排版样式增强
+  # https://github.com/sivan/heti
+  heti:
+    enable: false
+    css: https://unpkg.com/heti/umd/heti.min.css
+    js: https://unpkg.com/heti/umd/heti-addon.min.js
+
+  # MathJax
+  # 需在Markdown文件开头加入mathjax: true
+  # 推荐使用Pandoc: npm uninstall hexo-renderer-marked --save & npm install hexo-renderer-pandoc --save
+  mathjax:
+    enable: true
+    cdn: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+  # Katex - The fastest math typesetting library for the web
+  # https://katex.org/docs/autorender.html
+  # https://github.com/KaTeX/KaTeX
+  # 使用 hexo-renderer-markdown-it-plus 作为公式渲染器：npm uninstall hexo-renderer-marked --save npm install hexo-renderer-markdown-it-plus --save
+  # katex:
+  #   enable: false
+  #   min_css: <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" integrity="sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC" crossorigin="anonymous">
+  #   min_js: <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js" integrity="sha384-X/XCfMm41VSsqRNQgDerQczD69XqmjOOOwYQvr/uuC+j4OPoNhVgjdGFwhvN02Ja" crossorigin="anonymous"></script>
+  #   auto_render_min_js: <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"onload="renderMathInElement(document.body);"></script>
