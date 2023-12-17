@@ -63,10 +63,18 @@ tagcloud:
   end_color: # 结束的颜色。您可使用十六进位值（#b700ff），rgba（rgba(183, 0, 255, 1)），hsla（hsla(283, 100%, 50%, 1)）或 颜色关键字。此变量仅在 color 参数开启时才有用。
   show_count: false # 显示每个标签的文章总数
 
+# timeline:
+#   layout: timeline
+#   title: 近期动态
+#   api: http://s5tnyjrp4.sabkt.gdipper.com/twitter.json # https://api.github.com/repos/0xjeffro/discussion4me.io/issues
+#   #user: 0xjeffro # 默认显示所有人的数据，设置名称可过滤为仅显示某人的数据，多个名称用英文逗号隔开，不要加空格
+#   type: memos # 默认不用写，如果是友链朋友圈数据请写 fcircle
+#   limit: # 默认通过 api 上增加 per_page 来设置，如果是友链朋友圈，可通过这个设置数量
+
 timeline:
   layout: timeline
-  title: 近期动态
-  api: https://api.github.com/repos/0xjeffro/discussion4me.io/issues
-  user: 0xjeffro # 默认显示所有人的数据，设置名称可过滤为仅显示某人的数据，多个名称用英文逗号隔开，不要加空格
-  type: # 默认不用写，如果是友链朋友圈数据请写 fcircle
-  limit: # 默认通过 api 上增加 per_page 来设置，如果是友链朋友圈，可通过这个设置数量
+  title: Twitter动态
+  api: https://memos.xaox.cc/api/v1/memo?creatorId=1&limit=10
+  type: memos
+  hide: user,footer
+

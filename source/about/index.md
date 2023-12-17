@@ -17,7 +17,7 @@ description: 本站是xaoxuu的个人站，博主目前主要从事于iOS开发�
 
 **如果宇宙中真有什么终极的逻辑，那就是我们终有一天会在舰桥上重逢，直到生命终结。**
 
-本站是[@JeffroBTC](https://twitter.com/JeffroBTC)的个人站，Lorem Ipsum，也称乱数假文或者哑元文本， 是印刷及排版领域所常用的虚拟文字。由于曾经一台匿名的打印机刻意打乱了一盒印刷字体从而造出一本字体样品书，Lorem Ipsum从西元15世纪起就被作为此领域的标准文本使用～
+本站是 [@JeffroBTC](https://twitter.com/JeffroBTC) 的个人站，Lorem Ipsum，也称乱数假文或者哑元文本， 是印刷及排版领域所常用的虚拟文字。由于曾经一台匿名的打印机刻意打乱了一盒印刷字体从而造出一本字体样品书，Lorem Ipsum从西元15世纪起就被作为此领域的标准文本使用～
 
 
 {% navbar active:2 [友链](/friends/) [关于](/about/) %}
