@@ -1,15 +1,20 @@
 ---
 robots: noindex,nofollow
+title: 便笺
 sitemap: false
-menu_id: notes
 layout: wiki
-wiki: Notes
-header: true
+menu_id: notes
 breadcrumb: false
-title: Notes
 seo_title: 收藏的站点
 ---
 
-{% toc wiki:Notes display:mobile TOC %}
+<!-- {% toc wiki:Notes display:mobile TOC %} -->
 
-{% sites not:examples %}
+<!-- {% sites not:examples %} -->
+
+# 
+# 
+# 
+# 
+# 
+# 
